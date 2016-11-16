@@ -8,6 +8,7 @@
 ## 使用方式
 请注意，这里的`new nativeShare('nativeShare',config) `中的`nativeShare`是绑定触发按钮的，这里和原来插件使用方式不同的地方。
 其他的`config`配置如下，详细的请参考index.html
+```
 <script>
     var config = {
         url:'http://blog.wangjunfeng.com',// 分享的网页链接
@@ -18,8 +19,8 @@
         from:'王俊锋的博客' // 来源
     };
     var share_obj = new nativeShare('nativeShare',config);
-</script>
-
+```
+========
 ## 效果图
 ![MacDown Screenshot](https://github.com/caixiaojia/wxshare/blob/master/WechatIMG1.jpeg)
 ![MacDown Screenshot](https://github.com/caixiaojia/wxshare/blob/master/WechatIMG2.jpeg)

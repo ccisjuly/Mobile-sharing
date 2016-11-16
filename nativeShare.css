@@ -1,0 +1,135 @@
+#nativeShare {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 13px;
+    height: 45%;
+    width: 100%;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+#nativeShare .label {
+    width: 100%;
+    display: inline-flex;
+    font-size: 15px;
+    margin-top: 15px;
+    justify-content: space-around;
+}
+
+#nativeShare .label .title{
+    flex: 1;
+    text-align: left;
+    padding-left: 5%;
+}
+
+#nativeShare .label .close{
+    flex: 1;
+    text-align: right;
+    padding-right: 10%;
+    background: url('./icon/close.png');
+    background-size: 60px 20px;
+    background-repeat: no-repeat;
+    background-position:  90% 0;
+}
+
+#nativeShare .list {
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+#nativeShare .list span {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#nativeShare .list span i {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+#nativeShare .weibo i {
+    background-image: url('./icon/weibo.png');
+    background-size: cover;
+}
+
+#nativeShare .weixin i {
+    background-image: url('./icon/weixin_friend.png');
+    background-size: cover;
+}
+
+#nativeShare .weixin_timeline i {
+    background-image: url('./icon/weixin.png');
+    background-size: cover;
+}
+
+#nativeShare .qq i {
+    background-image: url('./icon/qq.png');
+    background-size: cover;
+}
+
+#nativeShare .qzone i {
+    background-image: url('./icon/qqzone.png');
+    background-size: cover;
+}
+
+#nativeShare .more i {
+    background-image: url('./icon/more.png');
+    background-size: cover;
+}
+
+/* 微信样式 */
+#nativeShareBox .closewx{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #0b0b0b;
+    opacity: 0.8;
+}
+#nativeShareBox .wxshare{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin: 0;
+    padding: 0;
+    background-color: #0b0b0b;
+    background-image: url('./icon/wxshare.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+}
+/* url样式 */
+#nativeShareBox .url{
+    font-size: 14px;
+    margin: 0 auto;
+}
+#nativeShare .intro{
+    margin: 15% auto 0 auto;
+    font-size: 16px;
+}
+#nativeShareBox .url span{
+    display: inline-block;
+    border: 1px dotted gray;
+    margin: 20px auto;
+    width: 80%;
+    padding: 5px;
+    overflow: hidden;
+}
+#nativeShareBox a .url{
+    color: #333;
+    text-decoration: none;
+}
+#nativeShareBox {
+    display: none;
+}

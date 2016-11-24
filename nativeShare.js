@@ -184,7 +184,7 @@ var nativeShare = function (elementNode, config) {
             }
         }
         this.isloadqqApi();
-        if (isqqBrowser || isucBrowser) {
+        if ((isqqBrowser || isucBrowser) && !isWeixin) {
             this.html(1);
         } else if (isWeixin) {
             this.html(3);
